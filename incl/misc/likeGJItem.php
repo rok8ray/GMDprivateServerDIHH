@@ -18,14 +18,18 @@ if (isset($_POST['levelID'])){
 }
 $ip = $gs->getIP();
 
-$query = $db->prepare("SELECT count(*) FROM actions_likes WHERE itemID=:itemID AND type=:type AND ip=INET6_ATON(:ip)");
-$query->execute([':type' => $type, ':itemID' => $itemID, ':ip' => $ip]);
-if($query->fetchColumn() > 2)
-	exit("-1");
-
-$query = $db->prepare("INSERT INTO actions_likes (itemID, type, isLike, ip) VALUES 
-											(:itemID, :type, :isLike, INET6_ATON(:ip))");
-$query->execute([':itemID' => $itemID, ':type' => $type, ':isLike' => $isLike, ':ip' => $ip]);
+try {
+	$query = $db->prepare("SELECT count(*) FROM actions_likes WHERE itemID=:itemID AND type=:type AND ip=INET6_ATON(:ip)");
+	$query->execute([':type' => $type, ':itemID' => $itemID, ':ip' => $ip]);
+	if($query->fetchColumn() > 2)
+		exit("-1");
+	
+	$query = $db->prepare("INSERT INTO actions_likes (itemID, type, isLike, ip) VALUES 
+												(:itemID, :type, :isLike, INET6_ATON(:ip))");
+	$query->execute([':itemID' => $itemID, ':type' => $type, ':isLike' => $isLike, ':ip' => $ip]);
+} catch(Exception $e) {
+	// Silently ignore like tracking errors (e.g. unknown IP format)
+}
 
 switch($type){
 	case 1:

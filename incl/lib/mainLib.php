@@ -539,9 +539,14 @@ class mainLib {
         public function getIP(){
                 if (isset($_SERVER['HTTP_CF_CONNECTING_IP']) && $this->isCloudFlareIP($_SERVER['REMOTE_ADDR'])) //CLOUDFLARE REVERSE PROXY SUPPORT
                         return $_SERVER['HTTP_CF_CONNECTING_IP'];
-                if(isset($_SERVER['HTTP_X_FORWARDED_FOR']) && ipInRange::ipv4_in_range($_SERVER['REMOTE_ADDR'], '127.0.0.0/8')) //LOCALHOST REVERSE PROXY SUPPORT (7m.pl)
-                        return $_SERVER['HTTP_X_FORWARDED_FOR'];
-                return $_SERVER['REMOTE_ADDR'];
+                if(isset($_SERVER['HTTP_X_FORWARDED_FOR']) && ipInRange::ipv4_in_range($_SERVER['REMOTE_ADDR'], '127.0.0.0/8')) { //LOCALHOST REVERSE PROXY SUPPORT
+                        $forwarded = trim(explode(',', $_SERVER['HTTP_X_FORWARDED_FOR'])[0]);
+                        if(!empty($forwarded)) return $forwarded;
+                }
+                if(isset($_SERVER['HTTP_X_REAL_IP']) && !empty($_SERVER['HTTP_X_REAL_IP']))
+                        return $_SERVER['HTTP_X_REAL_IP'];
+                $remoteAddr = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '127.0.0.1';
+                return !empty($remoteAddr) ? $remoteAddr : '127.0.0.1';
         }
         public function checkModIPPermission($permission){
                 include __DIR__ . "/connection.php";
