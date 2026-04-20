@@ -1,0 +1,437 @@
+Starting MySQL...
+Waiting for MySQL to start...
++---+
+| 1 |
++---+
+| 1 |
++---+
+MySQL is ready!
+Setting up database...
+Importing database schema...
+Database schema imported!
+Starting PHP web server on 0.0.0.0:5000...
+[Sun Apr 19 17:29:33 2026] PHP 8.2.23 Development Server (http://0.0.0.0:5000) started
+[Sun Apr 19 17:29:37 2026] 127.0.0.1:59648 Accepted
+[Sun Apr 19 17:29:37 2026] 127.0.0.1:59648 [404]: GET / - No such file or directory
+[Sun Apr 19 17:29:37 2026] 127.0.0.1:59648 Closing
+[Sun Apr 19 17:29:48 2026] 127.0.0.1:54490 Accepted
+[Sun Apr 19 17:29:48 2026] 127.0.0.1:54490 [404]: GET / - No such file or directory
+[Sun Apr 19 17:29:48 2026] 127.0.0.1:54490 Closing
+[Sun Apr 19 17:29:48 2026] 127.0.0.1:54502 Accepted
+[Sun Apr 19 17:29:48 2026] 127.0.0.1:54502 [404]: GET /favicon.ico - No such file or directory
+[Sun Apr 19 17:29:48 2026] 127.0.0.1:54502 Closing
+[Sun Apr 19 17:29:50 2026] 127.0.0.1:49210 Accepted
+[Sun Apr 19 17:29:50 2026] 127.0.0.1:49210 [404]: GET / - No such file or directory
+[Sun Apr 19 17:29:50 2026] 127.0.0.1:49210 Closing
+[Sun Apr 19 17:29:56 2026] 127.0.0.1:49216 Accepted
+[Sun Apr 19 17:29:56 2026] 127.0.0.1:49216 [200]: GET /dashboard/
+[Sun Apr 19 17:29:56 2026] 127.0.0.1:49216 Closing
+[Sun Apr 19 17:30:04 2026] 127.0.0.1:51414 Accepted
+[Sun Apr 19 17:30:04 2026] 127.0.0.1:51414 [200]: GET /acceptGJFriendRequest20.php
+[Sun Apr 19 17:30:04 2026] 127.0.0.1:51414 Closing
+[Sun Apr 19 17:30:18 2026] 127.0.0.1:50300 Accepted
+[Sun Apr 19 17:30:18 2026] 127.0.0.1:50300 [404]: GET / - No such file or directory
+[Sun Apr 19 17:30:18 2026] 127.0.0.1:50300 Closing
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52860 Accepted
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52860 [200]: GET /dashboard
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52860 Closing
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52868 Accepted
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52868 [404]: GET /incl/cvolton.css - No such file or directory
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52868 Closing
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52878 Accepted
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52878 [404]: GET /incl/font-awesome-4.7.0/css/font-awesome.min.css - No such file or directory
+[Sun Apr 19 17:30:22 2026] 127.0.0.1:52878 Closing
+[Sun Apr 19 17:31:49 2026] 127.0.0.1:55162 Accepted
+[Sun Apr 19 17:31:49 2026] 127.0.0.1:55162 [404]: GET / - No such file or directory
+[Sun Apr 19 17:31:49 2026] 127.0.0.1:55162 Closing
+[Sun Apr 19 17:32:26 2026] 127.0.0.1:47446 Accepted
+[Sun Apr 19 17:32:26 2026] 127.0.0.1:47446 [404]: GET /switcher/getInfo.php - No such file or directory
+[Sun Apr 19 17:32:26 2026] 127.0.0.1:47446 Closing
+[Sun Apr 19 17:33:48 2026] 127.0.0.1:45854 Accepted
+[Sun Apr 19 17:33:48 2026] 127.0.0.1:45854 [200]: POST /accounts/registerGJAccount.php
+[Sun Apr 19 17:33:48 2026] 127.0.0.1:45854 Closing
+[Sun Apr 19 17:34:01 2026] 127.0.0.1:34106 Accepted
+[Sun Apr 19 17:34:01 2026] 127.0.0.1:34106 [200]: POST /accounts/loginGJAccount.php
+[Sun Apr 19 17:34:01 2026] 127.0.0.1:34106 Closing
+[Sun Apr 19 17:35:06 2026] 127.0.0.1:34278 Accepted
+[Sun Apr 19 17:35:06 2026] 127.0.0.1:34278 [200]: POST /uploadGJLevel21.php
+[Sun Apr 19 17:35:06 2026] 127.0.0.1:34278 Closing
+[Sun Apr 19 17:35:10 2026] 127.0.0.1:48604 Accepted
+[Sun Apr 19 17:35:10 2026] 127.0.0.1:48604 [200]: POST /getGJDailyLevel.php
+[Sun Apr 19 17:35:10 2026] 127.0.0.1:48604 Closing
+[Sun Apr 19 17:35:16 2026] 127.0.0.1:48616 Accepted
+[Sun Apr 19 17:35:16 2026] 127.0.0.1:48616 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:35:16 2026] 127.0.0.1:48616 Closing
+[Sun Apr 19 17:35:21 2026] 127.0.0.1:52390 Accepted
+[Sun Apr 19 17:35:21 2026] 127.0.0.1:52390 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:35:21 2026] 127.0.0.1:52390 Closing
+[Sun Apr 19 17:35:24 2026] 127.0.0.1:52394 Accepted
+[Sun Apr 19 17:35:24 2026] 127.0.0.1:52394 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:35:24 2026] 127.0.0.1:52394 Closing
+[Sun Apr 19 17:35:31 2026] 127.0.0.1:53954 Accepted
+[Sun Apr 19 17:35:31 2026] 127.0.0.1:53954 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:35:31 2026] 127.0.0.1:53954 Closing
+[Sun Apr 19 17:35:37 2026] 127.0.0.1:53966 Accepted
+[Sun Apr 19 17:35:37 2026] 127.0.0.1:53966 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:35:37 2026] 127.0.0.1:53966 Closing
+[Sun Apr 19 17:36:24 2026] 127.0.0.1:35640 Accepted
+[Sun Apr 19 17:36:24 2026] 127.0.0.1:35640 [200]: POST /uploadGJLevel21.php
+[Sun Apr 19 17:36:24 2026] 127.0.0.1:35640 Closing
+[Sun Apr 19 17:36:27 2026] 127.0.0.1:35656 Accepted
+[Sun Apr 19 17:36:27 2026] 127.0.0.1:35656 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:36:27 2026] 127.0.0.1:35656 Closing
+[Sun Apr 19 17:36:28 2026] 127.0.0.1:35668 Accepted
+[Sun Apr 19 17:36:28 2026] 127.0.0.1:35668 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:36:28 2026] 127.0.0.1:35668 Closing
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42974 Accepted
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42974 [200]: POST /updateGJUserScore22.php
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42974 Closing
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42984 Accepted
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42984 [200]: POST /getGJUserInfo20.php
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42984 Closing
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42986 Accepted
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42986 [200]: POST /getGJAccountComments20.php
+[Sun Apr 19 17:36:35 2026] 127.0.0.1:42986 Closing
+[Sun Apr 19 17:37:13 2026] 127.0.0.1:49748 Accepted
+[Sun Apr 19 17:37:13 2026] 127.0.0.1:49748 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:37:13 2026] 127.0.0.1:49748 Closing
+[Sun Apr 19 17:37:13 2026] 127.0.0.1:49754 Accepted
+[Sun Apr 19 17:37:13 2026] 127.0.0.1:49754 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:37:13 2026] 127.0.0.1:49754 Closing
+[Sun Apr 19 17:37:14 2026] 127.0.0.1:49766 Accepted
+[Sun Apr 19 17:37:14 2026] 127.0.0.1:49766 [200]: POST /updateGJUserScore22.php
+[Sun Apr 19 17:37:14 2026] 127.0.0.1:49766 Closing
+[Sun Apr 19 17:37:14 2026] 127.0.0.1:49782 Accepted
+[Sun Apr 19 17:37:14 2026] 127.0.0.1:49782 [200]: POST /getGJUserInfo20.php
+[Sun Apr 19 17:37:14 2026] 127.0.0.1:49782 Closing
+[Sun Apr 19 17:37:15 2026] 127.0.0.1:49784 Accepted
+[Sun Apr 19 17:37:15 2026] 127.0.0.1:49784 [200]: POST /getGJAccountComments20.php
+[Sun Apr 19 17:37:15 2026] 127.0.0.1:49784 Closing
+[Sun Apr 19 17:37:35 2026] 127.0.0.1:52322 Accepted
+[Sun Apr 19 17:37:35 2026] 127.0.0.1:52322 [200]: POST /accounts/loginGJAccount.php
+[Sun Apr 19 17:37:35 2026] 127.0.0.1:52322 Closing
+[Sun Apr 19 17:37:42 2026] 127.0.0.1:52436 Accepted
+[Sun Apr 19 17:37:42 2026] 127.0.0.1:52436 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:37:42 2026] 127.0.0.1:52436 Closing
+[Sun Apr 19 17:37:48 2026] 127.0.0.1:52450 Accepted
+[Sun Apr 19 17:37:48 2026] 127.0.0.1:52450 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:37:48 2026] 127.0.0.1:52450 Closing
+[Sun Apr 19 17:37:50 2026] 127.0.0.1:55176 Accepted
+[Sun Apr 19 17:37:50 2026] 127.0.0.1:55176 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:37:50 2026] 127.0.0.1:55176 Closing
+[Sun Apr 19 17:37:55 2026] 127.0.0.1:55180 Accepted
+[Sun Apr 19 17:37:55 2026] 127.0.0.1:55180 [200]: POST /getGJLevels21.php - Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))ORDER BY uploadDate DESC LIMIT 10 OFFSET 00' at line 1 in /home/runner/workspace/incl/levels/getGJLevels.php:275
+Stack trace:
+#0 /home/runner/workspace/incl/levels/getGJLevels.php(275): PDOStatement->execute()
+#1 /home/runner/workspace/getGJLevels21.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/getGJLevels.php on line 275
+[Sun Apr 19 17:37:55 2026] 127.0.0.1:55180 Closing
+[Sun Apr 19 17:37:57 2026] 127.0.0.1:55196 Accepted
+[Sun Apr 19 17:37:57 2026] 127.0.0.1:55196 [200]: POST /getGJLevels21.php - Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))ORDER BY uploadDate DESC LIMIT 10 OFFSET 00' at line 1 in /home/runner/workspace/incl/levels/getGJLevels.php:275
+Stack trace:
+#0 /home/runner/workspace/incl/levels/getGJLevels.php(275): PDOStatement->execute()
+#1 /home/runner/workspace/getGJLevels21.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/getGJLevels.php on line 275
+[Sun Apr 19 17:37:57 2026] 127.0.0.1:55196 Closing
+[Sun Apr 19 17:37:59 2026] 127.0.0.1:41450 Accepted
+[Sun Apr 19 17:37:59 2026] 127.0.0.1:41450 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:37:59 2026] 127.0.0.1:41450 Closing
+[Sun Apr 19 17:38:09 2026] 127.0.0.1:41456 Accepted
+[Sun Apr 19 17:38:09 2026] 127.0.0.1:41456 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:38:09 2026] 127.0.0.1:41456 Closing
+[Sun Apr 19 17:38:12 2026] 127.0.0.1:34230 Accepted
+[Sun Apr 19 17:38:12 2026] 127.0.0.1:34230 [200]: POST /getGJScores20.php
+[Sun Apr 19 17:38:12 2026] 127.0.0.1:34230 Closing
+[Sun Apr 19 17:38:18 2026] 127.0.0.1:34232 Accepted
+[Sun Apr 19 17:38:18 2026] 127.0.0.1:34232 [200]: POST /getGJDailyLevel.php
+[Sun Apr 19 17:38:18 2026] 127.0.0.1:34232 Closing
+[Sun Apr 19 17:38:31 2026] 127.0.0.1:53944 Accepted
+[Sun Apr 19 17:38:31 2026] 127.0.0.1:53944 [200]: POST /getGJScores20.php
+[Sun Apr 19 17:38:31 2026] 127.0.0.1:53944 Closing
+[Sun Apr 19 17:38:33 2026] 127.0.0.1:53950 Accepted
+[Sun Apr 19 17:38:33 2026] 127.0.0.1:53950 [200]: POST /getGJScores20.php
+[Sun Apr 19 17:38:33 2026] 127.0.0.1:53950 Closing
+[Sun Apr 19 17:38:57 2026] 127.0.0.1:53302 Accepted
+[Sun Apr 19 17:38:57 2026] 127.0.0.1:53302 [200]: POST /getGJDailyLevel.php
+[Sun Apr 19 17:38:57 2026] 127.0.0.1:53302 Closing
+[Sun Apr 19 17:38:59 2026] 127.0.0.1:42782 Accepted
+[Sun Apr 19 17:38:59 2026] 127.0.0.1:42782 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:38:59 2026] 127.0.0.1:42782 Closing
+[Sun Apr 19 17:39:01 2026] 127.0.0.1:42792 Accepted
+[Sun Apr 19 17:39:01 2026] 127.0.0.1:42792 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:39:01 2026] 127.0.0.1:42792 Closing
+[Sun Apr 19 17:40:15 2026] 127.0.0.1:43950 Accepted
+[Sun Apr 19 17:40:15 2026] 127.0.0.1:43950 [200]: POST /downloadGJLevel22.php
+[Sun Apr 19 17:40:15 2026] 127.0.0.1:43950 Closing
+[Sun Apr 19 17:40:31 2026] 127.0.0.1:39664 Accepted
+[Sun Apr 19 17:40:31 2026] 127.0.0.1:39664 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:40:31 2026] 127.0.0.1:39664 Closing
+[Sun Apr 19 17:40:34 2026] 127.0.0.1:39676 Accepted
+[Sun Apr 19 17:40:34 2026] 127.0.0.1:39676 [200]: POST /likeGJItem211.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/misc/likeGJItem.php:28
+Stack trace:
+#0 /home/runner/workspace/incl/misc/likeGJItem.php(28): PDOStatement->execute(Array)
+#1 /home/runner/workspace/likeGJItem211.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/misc/likeGJItem.php on line 28
+[Sun Apr 19 17:40:34 2026] 127.0.0.1:39676 Closing
+[Sun Apr 19 17:40:37 2026] 127.0.0.1:39688 Accepted
+[Sun Apr 19 17:40:37 2026] 127.0.0.1:39688 [200]: POST /rateGJStars211.php
+[Sun Apr 19 17:40:37 2026] 127.0.0.1:39688 Closing
+[Sun Apr 19 17:40:44 2026] 127.0.0.1:43290 Accepted
+[Sun Apr 19 17:40:44 2026] 127.0.0.1:43290 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:40:44 2026] 127.0.0.1:43290 Closing
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43292 Accepted
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43292 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43292 Closing
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43308 Accepted
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43308 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43308 Closing
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43312 Accepted
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43312 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43312 Closing
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43328 Accepted
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43328 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:40:45 2026] 127.0.0.1:43328 Closing
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43330 Accepted
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43330 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43330 Closing
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43340 Accepted
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43340 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43340 Closing
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43342 Accepted
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43342 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:40:46 2026] 127.0.0.1:43342 Closing
+[Sun Apr 19 17:40:49 2026] 127.0.0.1:53418 Accepted
+[Sun Apr 19 17:40:49 2026] 127.0.0.1:53418 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:40:49 2026] 127.0.0.1:53418 Closing
+[Sun Apr 19 17:40:51 2026] 127.0.0.1:53430 Accepted
+[Sun Apr 19 17:40:51 2026] 127.0.0.1:53430 [200]: POST /getGJLevelScores211.php
+[Sun Apr 19 17:40:51 2026] 127.0.0.1:53430 Closing
+[Sun Apr 19 17:41:04 2026] 127.0.0.1:47492 Accepted
+[Sun Apr 19 17:41:04 2026] 127.0.0.1:47492 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:41:04 2026] 127.0.0.1:47492 Closing
+[Sun Apr 19 17:41:34 2026] 127.0.0.1:37718 Accepted
+[Sun Apr 19 17:41:34 2026] 127.0.0.1:37718 [200]: POST /getGJLevels.php
+[Sun Apr 19 17:41:34 2026] 127.0.0.1:37718 Closing
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57260 Accepted
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57260 [200]: GET /dashboard/
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57260 Closing
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57270 Accepted
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57274 Accepted
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57270 [200]: GET /dashboard/incl/cvolton.css
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57274 [200]: GET /dashboard/incl/font-awesome-4.7.0/css/font-awesome.min.css
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57270 Closing
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57274 Closing
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57280 Accepted
+[Sun Apr 19 17:42:09 2026] 127.0.0.1:57280 [200]: GET /dashboard/incl/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+[Sun Apr 19 17:42:10 2026] 127.0.0.1:57280 Closing
+[Sun Apr 19 17:42:10 2026] 127.0.0.1:57286 Accepted
+[Sun Apr 19 17:42:10 2026] 127.0.0.1:57286 [404]: GET /favicon.ico - No such file or directory
+[Sun Apr 19 17:42:10 2026] 127.0.0.1:57286 Closing
+[Sun Apr 19 17:43:48 2026] 127.0.0.1:45042 Accepted
+[Sun Apr 19 17:43:48 2026] 127.0.0.1:45042 [200]: POST /getGJUserInfo20.php
+[Sun Apr 19 17:43:48 2026] 127.0.0.1:45042 Closing
+[Sun Apr 19 17:43:59 2026] 127.0.0.1:59010 Accepted
+[Sun Apr 19 17:43:59 2026] 127.0.0.1:59010 [200]: POST /downloadGJLevel22.php
+[Sun Apr 19 17:43:59 2026] 127.0.0.1:59010 Closing
+[Sun Apr 19 17:44:14 2026] 127.0.0.1:43700 Accepted
+[Sun Apr 19 17:44:14 2026] 127.0.0.1:43700 [200]: POST /accounts/loginGJAccount.php
+[Sun Apr 19 17:44:14 2026] 127.0.0.1:43700 Closing
+[Sun Apr 19 17:44:24 2026] 127.0.0.1:45808 Accepted
+[Sun Apr 19 17:44:24 2026] 127.0.0.1:45808 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:44:24 2026] 127.0.0.1:45808 Closing
+[Sun Apr 19 17:44:57 2026] 127.0.0.1:33114 Accepted
+[Sun Apr 19 17:44:57 2026] 127.0.0.1:33114 [200]: POST /requestUserAccess.php
+[Sun Apr 19 17:44:57 2026] 127.0.0.1:33114 Closing
+[Sun Apr 19 17:45:00 2026] 127.0.0.1:49120 Accepted
+[Sun Apr 19 17:45:00 2026] 127.0.0.1:49120 [200]: POST /requestUserAccess.php
+[Sun Apr 19 17:45:00 2026] 127.0.0.1:49120 Closing
+[Sun Apr 19 17:45:01 2026] 127.0.0.1:49132 Accepted
+[Sun Apr 19 17:45:02 2026] 127.0.0.1:49132 [200]: POST /requestUserAccess.php
+[Sun Apr 19 17:45:02 2026] 127.0.0.1:49132 Closing
+[Sun Apr 19 17:45:41 2026] 127.0.0.1:33528 Accepted
+[Sun Apr 19 17:45:41 2026] 127.0.0.1:33528 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:45:41 2026] 127.0.0.1:33528 Closing
+[Sun Apr 19 17:45:41 2026] 127.0.0.1:33542 Accepted
+[Sun Apr 19 17:45:42 2026] 127.0.0.1:33542 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:45:42 2026] 127.0.0.1:33542 Closing
+[Sun Apr 19 17:45:51 2026] 127.0.0.1:42922 Accepted
+[Sun Apr 19 17:45:51 2026] 127.0.0.1:42922 [200]: POST /getGJDailyLevel.php
+[Sun Apr 19 17:45:51 2026] 127.0.0.1:42922 Closing
+[Sun Apr 19 17:45:54 2026] 127.0.0.1:42926 Accepted
+[Sun Apr 19 17:45:54 2026] 127.0.0.1:42926 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:45:54 2026] 127.0.0.1:42926 Closing
+[Sun Apr 19 17:45:55 2026] 127.0.0.1:42934 Accepted
+[Sun Apr 19 17:45:55 2026] 127.0.0.1:42934 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:45:55 2026] 127.0.0.1:42934 Closing
+[Sun Apr 19 17:46:50 2026] 127.0.0.1:45232 Accepted
+[Sun Apr 19 17:46:50 2026] 127.0.0.1:45232 [200]: POST /requestUserAccess.php
+[Sun Apr 19 17:46:50 2026] 127.0.0.1:45232 Closing
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45248 Accepted
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45248 [200]: POST /updateGJUserScore22.php
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45248 Closing
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45258 Accepted
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45258 [200]: POST /getGJUserInfo20.php
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45258 Closing
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45260 Accepted
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45260 [200]: POST /getGJAccountComments20.php
+[Sun Apr 19 17:46:52 2026] 127.0.0.1:45260 Closing
+[Sun Apr 19 17:47:18 2026] 127.0.0.1:32936 Accepted
+[Sun Apr 19 17:47:18 2026] 127.0.0.1:32936 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:47:18 2026] 127.0.0.1:32936 Closing
+[Sun Apr 19 17:47:18 2026] 127.0.0.1:32942 Accepted
+[Sun Apr 19 17:47:19 2026] 127.0.0.1:32942 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:47:19 2026] 127.0.0.1:32942 Closing
+[Sun Apr 19 17:47:22 2026] 127.0.0.1:56584 Accepted
+[Sun Apr 19 17:47:22 2026] 127.0.0.1:56584 [200]: POST /updateGJUserScore22.php
+[Sun Apr 19 17:47:22 2026] 127.0.0.1:56584 Closing
+[Sun Apr 19 17:47:22 2026] 127.0.0.1:56590 Accepted
+[Sun Apr 19 17:47:22 2026] 127.0.0.1:56590 [200]: POST /getGJUserInfo20.php
+[Sun Apr 19 17:47:22 2026] 127.0.0.1:56590 Closing
+[Sun Apr 19 17:47:23 2026] 127.0.0.1:56596 Accepted
+[Sun Apr 19 17:47:23 2026] 127.0.0.1:56596 [200]: POST /getGJAccountComments20.php
+[Sun Apr 19 17:47:23 2026] 127.0.0.1:56596 Closing
+[Sun Apr 19 17:47:45 2026] 127.0.0.1:50678 Accepted
+[Sun Apr 19 17:47:45 2026] 127.0.0.1:50678 [200]: POST /requestUserAccess.php
+[Sun Apr 19 17:47:45 2026] 127.0.0.1:50678 Closing
+[Sun Apr 19 17:47:59 2026] 127.0.0.1:43408 Accepted
+[Sun Apr 19 17:47:59 2026] 127.0.0.1:43408 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:47:59 2026] 127.0.0.1:43408 Closing
+[Sun Apr 19 17:48:00 2026] 127.0.0.1:42770 Accepted
+[Sun Apr 19 17:48:00 2026] 127.0.0.1:42770 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:48:00 2026] 127.0.0.1:42770 Closing
+[Sun Apr 19 17:48:03 2026] 127.0.0.1:42786 Accepted
+[Sun Apr 19 17:48:03 2026] 127.0.0.1:42786 [200]: POST /getGJComments21.php
+[Sun Apr 19 17:48:03 2026] 127.0.0.1:42786 Closing
+[Sun Apr 19 17:48:10 2026] 127.0.0.1:33596 Accepted
+[Sun Apr 19 17:48:10 2026] 127.0.0.1:33596 [200]: POST /uploadGJComment21.php
+[Sun Apr 19 17:48:10 2026] 127.0.0.1:33596 Closing
+[Sun Apr 19 17:48:10 2026] 127.0.0.1:33608 Accepted
+[Sun Apr 19 17:48:10 2026] 127.0.0.1:33608 [200]: POST /getGJComments21.php
+[Sun Apr 19 17:48:10 2026] 127.0.0.1:33608 Closing
+[Sun Apr 19 17:48:21 2026] 127.0.0.1:49518 Accepted
+[Sun Apr 19 17:48:21 2026] 127.0.0.1:49518 [200]: POST /getGJComments21.php
+[Sun Apr 19 17:48:21 2026] 127.0.0.1:49518 Closing
+[Sun Apr 19 17:49:34 2026] 127.0.0.1:56672 Accepted
+[Sun Apr 19 17:49:34 2026] 127.0.0.1:56672 [200]: POST /uploadGJLevel21.php
+[Sun Apr 19 17:49:34 2026] 127.0.0.1:56672 Closing
+[Sun Apr 19 17:49:45 2026] 127.0.0.1:54416 Accepted
+[Sun Apr 19 17:49:45 2026] 127.0.0.1:54416 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:49:45 2026] 127.0.0.1:54416 Closing
+[Sun Apr 19 17:49:49 2026] 127.0.0.1:54422 Accepted
+[Sun Apr 19 17:49:49 2026] 127.0.0.1:54422 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:49:49 2026] 127.0.0.1:54422 Closing
+[Sun Apr 19 17:50:00 2026] 127.0.0.1:37314 Accepted
+[Sun Apr 19 17:50:00 2026] 127.0.0.1:37314 [200]: POST /downloadGJLevel22.php - Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip' cannot be null in /home/runner/workspace/incl/levels/downloadGJLevel.php:82
+Stack trace:
+#0 /home/runner/workspace/incl/levels/downloadGJLevel.php(82): PDOStatement->execute(Array)
+#1 /home/runner/workspace/downloadGJLevel22.php(2): include('/home/runner/wo...')
+#2 {main}
+  thrown in /home/runner/workspace/incl/levels/downloadGJLevel.php on line 82
+[Sun Apr 19 17:50:00 2026] 127.0.0.1:37314 Closing
+[Sun Apr 19 17:50:09 2026] 127.0.0.1:44470 Accepted
+[Sun Apr 19 17:50:09 2026] 127.0.0.1:44470 [200]: POST /getGJMapPacks21.php
+[Sun Apr 19 17:50:09 2026] 127.0.0.1:44470 Closing
+[Sun Apr 19 17:50:16 2026] 127.0.0.1:44486 Accepted
+[Sun Apr 19 17:50:16 2026] 127.0.0.1:44486 [200]: POST /getGJUsers20.php
+[Sun Apr 19 17:50:16 2026] 127.0.0.1:44486 Closing
+[Sun Apr 19 17:50:20 2026] 127.0.0.1:51582 Accepted
+[Sun Apr 19 17:50:20 2026] 127.0.0.1:51582 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:50:20 2026] 127.0.0.1:51582 Closing
+[Sun Apr 19 17:50:23 2026] 127.0.0.1:51588 Accepted
+[Sun Apr 19 17:50:23 2026] 127.0.0.1:51588 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:50:23 2026] 127.0.0.1:51588 Closing
+[Sun Apr 19 17:50:46 2026] 127.0.0.1:40644 Accepted
+[Sun Apr 19 17:50:46 2026] 127.0.0.1:40644 [404]: GET /switcher/getInfo.php - No such file or directory
+[Sun Apr 19 17:50:46 2026] 127.0.0.1:40644 Closing
+[Sun Apr 19 17:51:18 2026] 127.0.0.1:38040 Accepted
+[Sun Apr 19 17:51:18 2026] 127.0.0.1:38040 [404]: GET /switcher/getInfo.php - No such file or directory
+[Sun Apr 19 17:51:18 2026] 127.0.0.1:38040 Closing
+[Sun Apr 19 17:52:16 2026] 127.0.0.1:54096 Accepted
+[Sun Apr 19 17:52:16 2026] 127.0.0.1:54096 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:52:16 2026] 127.0.0.1:54096 Closing
+[Sun Apr 19 17:52:16 2026] 127.0.0.1:54102 Accepted
+[Sun Apr 19 17:52:16 2026] 127.0.0.1:54102 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:52:16 2026] 127.0.0.1:54102 Closing

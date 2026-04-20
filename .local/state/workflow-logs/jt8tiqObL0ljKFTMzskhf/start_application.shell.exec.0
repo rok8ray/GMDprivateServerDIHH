@@ -1,0 +1,135 @@
+Starting MySQL...
+Waiting for MySQL to start...
++---+
+| 1 |
++---+
+| 1 |
++---+
+MySQL is ready!
+Setting up database...
+Database already has 30 tables, skipping import
+Starting PHP web server on 0.0.0.0:5000...
+[Sun Apr 19 17:55:08 2026] PHP 8.2.23 Development Server (http://0.0.0.0:5000) started
+[Sun Apr 19 17:55:09 2026] 127.0.0.1:53512 Accepted
+[Sun Apr 19 17:55:09 2026] 127.0.0.1:53512 [404]: GET / - No such file or directory
+[Sun Apr 19 17:55:09 2026] 127.0.0.1:53512 Closing
+[Sun Apr 19 17:55:10 2026] 127.0.0.1:34408 Accepted
+[Sun Apr 19 17:55:10 2026] 127.0.0.1:34408 [404]: GET / - No such file or directory
+[Sun Apr 19 17:55:10 2026] 127.0.0.1:34408 Closing
+[Sun Apr 19 17:55:11 2026] 127.0.0.1:34422 Accepted
+[Sun Apr 19 17:55:11 2026] 127.0.0.1:34422 [404]: GET /switcher/getInfo.php - No such file or directory
+[Sun Apr 19 17:55:11 2026] 127.0.0.1:34422 Closing
+[Sun Apr 19 17:55:16 2026] 127.0.0.1:34436 Accepted
+[Sun Apr 19 17:55:16 2026] 127.0.0.1:34436 [404]: GET /favicon.ico - No such file or directory
+[Sun Apr 19 17:55:16 2026] 127.0.0.1:34436 Closing
+[Sun Apr 19 17:55:20 2026] 127.0.0.1:38432 Accepted
+[Sun Apr 19 17:55:20 2026] 127.0.0.1:38432 [404]: GET /switcher/getInfo.php - No such file or directory
+[Sun Apr 19 17:55:20 2026] 127.0.0.1:38432 Closing
+[Sun Apr 19 17:55:52 2026] 127.0.0.1:57528 Accepted
+[Sun Apr 19 17:55:52 2026] 127.0.0.1:57528 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:55:52 2026] 127.0.0.1:57528 Closing
+[Sun Apr 19 17:55:53 2026] 127.0.0.1:57540 Accepted
+[Sun Apr 19 17:55:53 2026] 127.0.0.1:57540 [200]: POST /getGJUserList20.php
+[Sun Apr 19 17:55:53 2026] 127.0.0.1:57540 Closing
+[Sun Apr 19 17:55:59 2026] 127.0.0.1:34804 Accepted
+[Sun Apr 19 17:55:59 2026] 127.0.0.1:34804 [200]: POST /requestUserAccess.php
+[Sun Apr 19 17:55:59 2026] 127.0.0.1:34804 Closing
+[Sun Apr 19 17:56:07 2026] 127.0.0.1:34814 Accepted
+[Sun Apr 19 17:56:07 2026] 127.0.0.1:34814 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:56:07 2026] 127.0.0.1:34814 Closing
+[Sun Apr 19 17:56:08 2026] 127.0.0.1:34820 Accepted
+[Sun Apr 19 17:56:08 2026] 127.0.0.1:34820 [200]: POST /downloadGJLevel22.php
+[Sun Apr 19 17:56:08 2026] 127.0.0.1:34820 Closing
+[Sun Apr 19 17:56:14 2026] 127.0.0.1:46926 Accepted
+[Sun Apr 19 17:56:14 2026] 127.0.0.1:46926 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:56:14 2026] 127.0.0.1:46926 Closing
+[Sun Apr 19 17:56:20 2026] 127.0.0.1:41446 Accepted
+[Sun Apr 19 17:56:20 2026] 127.0.0.1:41446 [200]: POST /downloadGJLevel22.php
+[Sun Apr 19 17:56:20 2026] 127.0.0.1:41446 Closing
+[Sun Apr 19 17:56:51 2026] 127.0.0.1:58768 Accepted
+[Sun Apr 19 17:56:51 2026] 127.0.0.1:58768 [200]: POST /downloadGJLevel22.php
+[Sun Apr 19 17:56:51 2026] 127.0.0.1:58768 Closing
+[Sun Apr 19 17:57:03 2026] 127.0.0.1:42796 Accepted
+[Sun Apr 19 17:57:03 2026] 127.0.0.1:42796 [200]: POST /getGJLevels21.php
+[Sun Apr 19 17:57:03 2026] 127.0.0.1:42796 Closing
+[Sun Apr 19 17:57:07 2026] 127.0.0.1:42798 Accepted
+[Sun Apr 19 17:57:07 2026] 127.0.0.1:42798 [200]: POST /updateGJUserScore22.php
+[Sun Apr 19 17:57:07 2026] 127.0.0.1:42798 Closing
+[Sun Apr 19 17:57:07 2026] 127.0.0.1:42812 Accepted
+[Sun Apr 19 17:57:07 2026] 127.0.0.1:42812 [200]: POST /getGJLevelScores211.php
+[Sun Apr 19 17:57:07 2026] 127.0.0.1:42812 Closing
+[Sun Apr 19 17:57:10 2026] 127.0.0.1:46878 Accepted
+[Sun Apr 19 17:57:10 2026] 127.0.0.1:46878 [200]: POST /likeGJItem211.php
+[Sun Apr 19 17:57:10 2026] 127.0.0.1:46878 Closing
+[Sun Apr 19 17:57:12 2026] 127.0.0.1:46890 Accepted
+[Sun Apr 19 17:57:12 2026] 127.0.0.1:46890 [200]: POST /rateGJStars211.php
+[Sun Apr 19 17:57:12 2026] 127.0.0.1:46890 Closing
+[Sun Apr 19 17:57:37 2026] 127.0.0.1:36622 Accepted
+[Sun Apr 19 17:57:37 2026] 127.0.0.1:36622 [200]: POST /getGJUserInfo20.php
+[Sun Apr 19 17:57:37 2026] 127.0.0.1:36622 Closing
+[Sun Apr 19 17:57:37 2026] 127.0.0.1:36638 Accepted
+[Sun Apr 19 17:57:37 2026] 127.0.0.1:36638 [200]: POST /getGJAccountComments20.php
+[Sun Apr 19 17:57:37 2026] 127.0.0.1:36638 Closing
+[Sun Apr 19 17:57:48 2026] 127.0.0.1:52702 Accepted
+[Sun Apr 19 17:57:48 2026] 127.0.0.1:52702 [200]: POST /uploadGJAccComment20.php
+[Sun Apr 19 17:57:48 2026] 127.0.0.1:52702 Closing
+[Sun Apr 19 17:57:48 2026] 127.0.0.1:52708 Accepted
+[Sun Apr 19 17:57:48 2026] 127.0.0.1:52708 [200]: POST /getGJAccountComments20.php
+[Sun Apr 19 17:57:48 2026] 127.0.0.1:52708 Closing
+[Sun Apr 19 17:57:55 2026] 127.0.0.1:45632 Accepted
+[Sun Apr 19 17:57:55 2026] 127.0.0.1:45632 [200]: POST /getGJGauntlets21.php
+[Sun Apr 19 17:57:55 2026] 127.0.0.1:45632 Closing
+[Sun Apr 19 17:59:54 2026] 127.0.0.1:38578 Accepted
+[Sun Apr 19 17:59:54 2026] 127.0.0.1:38578 [200]: POST /rateGJStars211.php
+[Sun Apr 19 17:59:54 2026] 127.0.0.1:38578 Closing
+[Sun Apr 19 18:04:35 2026] 127.0.0.1:46330 Accepted
+[Sun Apr 19 18:04:35 2026] 127.0.0.1:46330 [200]: POST /getGJUserList20.php
+[Sun Apr 19 18:04:35 2026] 127.0.0.1:46330 Closing
+[Sun Apr 19 18:04:35 2026] 127.0.0.1:46342 Accepted
+[Sun Apr 19 18:04:35 2026] 127.0.0.1:46342 [200]: POST /getGJUserList20.php
+[Sun Apr 19 18:04:35 2026] 127.0.0.1:46342 Closing
+[Sun Apr 19 18:05:02 2026] 127.0.0.1:38600 Accepted
+[Sun Apr 19 18:05:02 2026] 127.0.0.1:38600 [200]: POST /getGJLevels21.php
+[Sun Apr 19 18:05:02 2026] 127.0.0.1:38600 Closing
+[Sun Apr 19 18:05:18 2026] 127.0.0.1:52778 Accepted
+[Sun Apr 19 18:05:18 2026] 127.0.0.1:52778 [200]: POST /getGJLevelScores211.php
+[Sun Apr 19 18:05:18 2026] 127.0.0.1:52778 Closing
+[Sun Apr 19 18:05:23 2026] 127.0.0.1:47092 Accepted
+[Sun Apr 19 18:05:23 2026] 127.0.0.1:47092 [200]: POST /getGJLevelScores211.php
+[Sun Apr 19 18:05:23 2026] 127.0.0.1:47092 Closing
+[Sun Apr 19 18:05:27 2026] 127.0.0.1:47104 Accepted
+[Sun Apr 19 18:05:27 2026] 127.0.0.1:47104 [200]: POST /rateGJDemon21.php
+[Sun Apr 19 18:05:27 2026] 127.0.0.1:47104 Closing
+[Sun Apr 19 18:05:34 2026] 127.0.0.1:38868 Accepted
+[Sun Apr 19 18:05:34 2026] 127.0.0.1:38868 [200]: POST /getGJLevels21.php
+[Sun Apr 19 18:05:34 2026] 127.0.0.1:38868 Closing
+[Sun Apr 19 18:05:37 2026] 127.0.0.1:38874 Accepted
+[Sun Apr 19 18:05:37 2026] 127.0.0.1:38874 [200]: POST /getGJLevelScores211.php
+[Sun Apr 19 18:05:37 2026] 127.0.0.1:38874 Closing
+[Sun Apr 19 18:05:45 2026] 127.0.0.1:38154 Accepted
+[Sun Apr 19 18:05:45 2026] 127.0.0.1:38154 [200]: POST /updateGJUserScore22.php
+[Sun Apr 19 18:05:45 2026] 127.0.0.1:38154 Closing
+[Sun Apr 19 18:05:45 2026] 127.0.0.1:38162 Accepted
+[Sun Apr 19 18:05:46 2026] 127.0.0.1:38162 [200]: POST /getGJUserInfo20.php
+[Sun Apr 19 18:05:46 2026] 127.0.0.1:38162 Closing
+[Sun Apr 19 18:05:46 2026] 127.0.0.1:38178 Accepted
+[Sun Apr 19 18:05:46 2026] 127.0.0.1:38178 [200]: POST /getGJAccountComments20.php
+[Sun Apr 19 18:05:46 2026] 127.0.0.1:38178 Closing
+[Sun Apr 19 18:09:03 2026] 127.0.0.1:43878 Accepted
+[Sun Apr 19 18:09:03 2026] 127.0.0.1:43878 [200]: POST /uploadGJLevel21.php
+[Sun Apr 19 18:09:03 2026] 127.0.0.1:43878 Closing
+[Sun Apr 19 18:09:17 2026] 127.0.0.1:33918 Accepted
+[Sun Apr 19 18:09:17 2026] 127.0.0.1:33918 [200]: POST /getGJLevels21.php
+[Sun Apr 19 18:09:17 2026] 127.0.0.1:33918 Closing
+[Sun Apr 19 18:09:18 2026] 127.0.0.1:33926 Accepted
+[Sun Apr 19 18:09:18 2026] 127.0.0.1:33926 [200]: POST /getGJLevels21.php
+[Sun Apr 19 18:09:18 2026] 127.0.0.1:33926 Closing
+[Sun Apr 19 18:09:18 2026] 127.0.0.1:33930 Accepted
+[Sun Apr 19 18:09:18 2026] 127.0.0.1:33930 [200]: POST /downloadGJLevel22.php
+[Sun Apr 19 18:09:18 2026] 127.0.0.1:33930 Closing
+[Sun Apr 19 18:09:23 2026] 127.0.0.1:41700 Accepted
+[Sun Apr 19 18:09:23 2026] 127.0.0.1:41700 [200]: POST /likeGJItem211.php
+[Sun Apr 19 18:09:23 2026] 127.0.0.1:41700 Closing
+[Sun Apr 19 18:09:25 2026] 127.0.0.1:41708 Accepted
+[Sun Apr 19 18:09:25 2026] 127.0.0.1:41708 [200]: POST /rateGJStars211.php
+[Sun Apr 19 18:09:25 2026] 127.0.0.1:41708 Closing

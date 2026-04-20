@@ -1,0 +1,21 @@
+Starting MySQL...
+Waiting for MySQL to start...
++---+
+| 1 |
++---+
+| 1 |
++---+
+MySQL is ready!
+Setting up database...
+Database already has 30 tables, skipping import
+Starting PHP web server on 0.0.0.0:5000...
+[Sun Apr 19 18:09:57 2026] PHP 8.2.23 Development Server (http://0.0.0.0:5000) started
+[Sun Apr 19 18:09:59 2026] 127.0.0.1:37074 Accepted
+[Sun Apr 19 18:09:59 2026] 127.0.0.1:37074 [404]: GET / - No such file or directory
+[Sun Apr 19 18:09:59 2026] 127.0.0.1:37074 Closing
+[Sun Apr 19 18:10:39 2026] 127.0.0.1:49844 Accepted
+[Sun Apr 19 18:10:39 2026] 127.0.0.1:49844 [200]: POST /uploadGJLevel21.php
+[Sun Apr 19 18:10:39 2026] 127.0.0.1:49844 Closing
+[Sun Apr 19 18:10:46 2026] 127.0.0.1:49852 Accepted
+[Sun Apr 19 18:10:46 2026] 127.0.0.1:49852 [200]: POST /getGJLevelScores211.php
+[Sun Apr 19 18:10:46 2026] 127.0.0.1:49852 Closing

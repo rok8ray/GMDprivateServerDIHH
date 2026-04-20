@@ -1,0 +1,19 @@
+Starting MySQL...
+Waiting for MySQL to start...
++---+
+| 1 |
++---+
+| 1 |
++---+
+MySQL is ready!
+Setting up database...
+Importing database schema...
+Database schema imported!
+Starting PHP web server on 0.0.0.0:5000...
+[Sun Apr 19 18:45:52 2026] PHP 8.2.23 Development Server (http://0.0.0.0:5000) started
+[Sun Apr 19 18:45:53 2026] 127.0.0.1:59566 Accepted
+[Sun Apr 19 18:45:53 2026] 127.0.0.1:59566 [404]: GET / - No such file or directory
+[Sun Apr 19 18:45:53 2026] 127.0.0.1:59566 Closing
+[Sun Apr 19 18:51:53 2026] 127.0.0.1:56736 Accepted
+[Sun Apr 19 18:51:53 2026] 127.0.0.1:56736 [200]: POST /getCustomContentURL.php
+[Sun Apr 19 18:51:53 2026] 127.0.0.1:56736 Closing
